@@ -1,0 +1,11 @@
+[package]
+name = "lstm-issue-repro"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+tract-onnx = { git = "https://github.com/sonos/tract/", rev= "1f5f1b5" }
+log = { version = "0.4.17" }
+env_logger = { version = "0.10.0" }
